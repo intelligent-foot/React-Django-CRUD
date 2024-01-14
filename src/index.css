@@ -1,13 +1,267 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-size: 25px;
+  font-family: sans-serif
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  color: #7fffd4;
+  background-color: #131415;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 }
+
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px; 
+    height: 200px; 
+    background-image: url('Images/djangoReact-removebg-preview.png'); 
+    background-size: cover; 
+    opacity: 0.1; 
+    pointer-events: none;
+}
+
+
+.todo-container{
+  width:  450px;
+  height: auto;
+  padding: 0px 20px 0px 20px;
+}
+
+.todo-list{
+  width: 100%;
+  height: auto;
+  background-color: #131415;
+  padding-top: 10px !important;
+  border-radius: 10px;
+  padding: 10px 10px 20px 10px;
+}
+
+
+.item-list{
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #7fffd4;
+  
+}
+
+.item-list .icon-container{
+  display: flex;
+
+}
+
+
+.icon-size{
+  width: 30px;
+  height: 30px;
+  color: #7fffd4;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+
+}
+
+.todo-list .items{
+  display: flex;
+}
+
+.todo-list .items input{
+  margin-right: 20px;
+  width: 20px;
+  
+}
+
+.todo-list .items input[type="checkbox"] {
+  appearance: none; 
+  width: 20px; 
+  height: 20px;
+  border-radius: 50%; 
+  margin-right: 8px; 
+  margin-top: 5px;
+  background-color: #7fffd4;
+  border: 2px solid #7fffd4; 
+  cursor: pointer; 
+}
+
+
+.todo-list .items input[type="checkbox"]:checked {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+
+.add-item{
+  width: 100%;
+  height: 120px;
+  padding: 0px 10px 0px 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+.add-item small{
+  align-self: self-start;
+  color: #7fffd4;
+  font-size: 15px;
+}
+
+.add-item form{
+  width: 100%;
+  height: 80px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-item form input, select{
+  border: 1px solid #7fffd4;
+  background-color: #131415;
+  color: #7fffd4;
+  font-size: 20px;
+  height: 50px;
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  justify-content: space-between;
+}
+
+
+
+
+select{
+  width: 100%;
+  margin: 20px 0px 20px 0px;
+  height: 50px;
+}
+
+input:focus, select:focus{
+  outline: 1px solid #7fffd4;
+}
+
+.add-item button{
+  height: 50px;
+  width: 70px;
+  padding: 0px 10px 0px 10px;
+  background-color: #7fffd4;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 20px;
+  
+  
+  
+}
+
+.update-container{
+  backdrop-filter: blur(10px);
+  background-color:  rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+
+.update{
+  width: 400px;
+  border-radius: 5px;
+  padding:  40px;
+  text-align: center;
+  transition: 0.5 ease-in-out
+  /* display: none; */
+}
+
+
+.update form{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 20px;
+
+}
+
+.update form button{
+  height: 40px;
+  padding: 10px;
+  border: none;
+  margin-left: 20px;
+  background-color: #7fffd4;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+
+}
+
+.update input{
+  width: 250px;
+  height: 40px;
+  background-color: #131415;
+  border: 1px solid #7fffd4;
+  color: #7fffd4;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.update .button-container{
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.cancel-button{
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  font-size: 17px;
+  background-color: #7fffd4;
+}
+.strike{
+  text-decoration: line-through;
+  color: #fff;
+}
+
+
+
+
+
+
+
