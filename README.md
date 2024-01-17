@@ -5,8 +5,9 @@ ToDo is an open-sourse project that showcases potent synergy achieved by integra
 
 <p align="center">
   <img src="src/Images/Screenshot (170).png" width="400">
-  <img src="" width="200">
-  <img src="" width="200">
+  <img src="src/Images>Screenshot(171).png" width="400">
+  <img src="src/Images>Screenshot(172).png" width="400">
+  <img src="src/Images>Screenshot(173).png" width="400">
 </p>
 
 ## Available Scripts
