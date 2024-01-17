@@ -4,7 +4,7 @@ ToDo is an open-sourse project that showcases potent synergy achieved by integra
 
 
 <p align="center">
-  <img src="src/Images/Screenshot (170).png" width="800">
+  <img src="src/Images/Screenshot (170).png" width="600">
   <img src="https://github.com/SalamiTech/note_todo/assets/92346444/708a5a9c-c969-44b7-88d5-77de46a07a48" width="200">
   <img src="https://github.com/SalamiTech/note_todo/assets/92346444/c2b50c4d-a67a-4df5-8dd5-150e2d8f3ccc" width="200">
 </p>
