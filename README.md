@@ -10,9 +10,20 @@ ToDo is an open-sourse project that showcases potent synergy achieved by integra
   <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/7f176f19e4ac6f8e4709008770a588fa6f1e7cd6/src/Images/Screenshot%20(171).png" width="400">
 </p>
 
-## ## Django Backend Admin Panel:
+## API View:
+<p align="center">
+  <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/6287a7151c1389b4cbdb0d57f67cd72043ad6635/src/Images/Screenshot%20(175).png" width="600">
+</p>
 
-By running <div color="green">python manage.py runserver</div> and navigating to /admin
+## Django Backend Admin Panel:
+
+By running python manage.py runserver and navigating to /admin
+
+<p align="center">
+  <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/6287a7151c1389b4cbdb0d57f67cd72043ad6635/src/Images/Screenshot%20(174).png" width="600">
+</p>
+
+## Django Backend Admin Panel:
 
 ### `npm start`
 
