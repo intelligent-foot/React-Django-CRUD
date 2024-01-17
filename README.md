@@ -10,12 +10,12 @@ ToDo is an open-sourse project that showcases potent synergy achieved by integra
   <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/7f176f19e4ac6f8e4709008770a588fa6f1e7cd6/src/Images/Screenshot%20(171).png" width="400">
 </p>
 
-## API View:
+# API View:
 <p align="center">
   <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/6287a7151c1389b4cbdb0d57f67cd72043ad6635/src/Images/Screenshot%20(175).png" width="600">
 </p>
 
-## Django Backend Admin Panel:
+# Django Backend Admin Panel:
 
 By running python manage.py runserver and navigating to /admin
 
@@ -23,63 +23,47 @@ By running python manage.py runserver and navigating to /admin
   <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/6287a7151c1389b4cbdb0d57f67cd72043ad6635/src/Images/Screenshot%20(174).png" width="600">
 </p>
 
-## Features 🌟
+# Features :dart:
 
 - **Django Backend**: Robust backend powered by Django and Django Rest Framework.
 - **React Frontend**: An amazing and reponsive User Interfave built with React.js.
 
+# Requirements :anchor:
 
-### `npm test`
+- React.js
+- Python 3 and above
+- Django (Django Rest Framework)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Getting Started :ferris_wheel:
 
-### `npm run build`
+## Frontend (React.js)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. **Clone the Repository**
+   ```sh
+   https://github.com/Minty-cyber/React-Django-CRUD-Frontend-.git
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. **Server Set Up:**
+   Navigate to the frontend directory and run the server
+   ```sh
+   cd todofront
+   npm start
+   ```
+## Backend (Django)
+1. **Clone the Repository**
+   ```sh
+   https://github.com/Minty-cyber/React-Django-CRUD-Backend-.git
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Backend Set Up**
+   ```sh
+   cd toDOApi
+   pip install -r requirements.txt
+   ```
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+3. **Start the Django server**
+   ```sh
+   python manage.py runserver
+   ```
+   
+### Created by JeffMint
