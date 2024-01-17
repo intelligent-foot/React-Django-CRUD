@@ -23,15 +23,11 @@ By running python manage.py runserver and navigating to /admin
   <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/6287a7151c1389b4cbdb0d57f67cd72043ad6635/src/Images/Screenshot%20(174).png" width="600">
 </p>
 
-## Django Backend Admin Panel:
+## Features 🌟
 
-### `npm start`
+- **Django Backend**: Robust backend powered by Django and Django Rest Framework.
+- **React Frontend**: An amazing and reponsive User Interfave built with React.js.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
 ### `npm test`
 
