@@ -4,10 +4,10 @@ ToDo is an open-sourse project that showcases potent synergy achieved by integra
 
 
 <p align="center">
-  <img src="src/Images/Screenshot (170).png" width="400">
+  <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/7f176f19e4ac6f8e4709008770a588fa6f1e7cd6/src/Images/Screenshot%20(170).png" width="400">
   <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/0b1623f9f404e2842dd86d557f575dd53915d600/src/Images/Screenshot%20(172).png" width="400">
-  <img src="src/Images>Screenshot(172).png" width="400">
-  <img src="src/Images>Screenshot(173).png" width="400">
+  <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/7f176f19e4ac6f8e4709008770a588fa6f1e7cd6/src/Images/Screenshot%20(173).png" width="400">
+  <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/7f176f19e4ac6f8e4709008770a588fa6f1e7cd6/src/Images/Screenshot%20(171).png" width="400">
 </p>
 
 ## Available Scripts
