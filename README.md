@@ -10,9 +10,9 @@ ToDo is an open-sourse project that showcases potent synergy achieved by integra
   <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/7f176f19e4ac6f8e4709008770a588fa6f1e7cd6/src/Images/Screenshot%20(171).png" width="400">
 </p>
 
-## Available Scripts
+## ## Django Backend Admin Panel:
 
-In the project directory, you can run:
+By running <div color="green">python manage.py runserver</div> and navigating to /admin
 
 ### `npm start`
 
