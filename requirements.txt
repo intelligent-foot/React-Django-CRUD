@@ -1,0 +1,8 @@
+asgiref
+attrs
+Automat
+Django
+django-cors-headers
+djangorestframework
+djangorestframework-jsonapi
+djangorestframework-simplejwt
