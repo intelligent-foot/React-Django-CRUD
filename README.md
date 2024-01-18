@@ -37,32 +37,25 @@ ToDo is an open-sourse project that showcases potent synergy achieved by integra
 
 # Getting Started :ferris_wheel:
 
-## Frontend (React.js)
-
 1. **Clone the Repository**
    ```sh
-   https://github.com/Minty-cyber/React-Django-CRUD-Frontend-.git
+    https://github.com/Minty-cyber/React-Django-CRUD.git
    ```
 
-2. **Server Set Up:**
+2. **Server Set Up (Frontend):**
    Navigate to the frontend directory and run the server
    ```sh
    cd todofront
    npm start
    ```
-## Backend (Django)
-1. **Clone the Repository**
-   ```sh
-   https://github.com/Minty-cyber/React-Django-CRUD-Backend-.git
-   ```
 
-2. **Backend Set Up**
+3. **Server Set Up (Backend):**
    ```sh
-   cd toDOApi
-   pip install -r requirements.txt
+    cd toDOApi
+    pip install -r requirements.txt
    ```
-
-3. **Start the Django server**
+   
+4. **Start the Django server**
    ```sh
    python manage.py runserver
    ```
