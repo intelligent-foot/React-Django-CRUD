@@ -68,6 +68,4 @@ By running python manage.py runserver and navigating to /admin
    ```
    
 ### Created by JeffMint
-=======
-ToDo - A React-Django CRUD Application.
->>>>>>> 9c7eb5504e65bac06295d6e2734999d00cb4f78a
+
