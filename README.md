@@ -4,7 +4,7 @@
 >>>>>>> Backend/main
 # ToDo - React-Django CRUD Application  📝
 
-ToDo is an open-sourse project that showcases potent synergy achieved by integrating Django and React in the development of a robust CRUD (Create, Read, Update, Delete) application. This project serves as a guiding beacon for developers seeking to harmoniously merge these technology stacks. 
+ToDo is an open-sourse project that showcases potent synergy achieved by integrating Django and React in the development of a robust CRUD (Create, Read, Update, Delete) application. This project serves as a guide for developers seeking to harmoniously merge these technology stacks. 
 
 
 <p align="center">
@@ -21,7 +21,7 @@ ToDo is an open-sourse project that showcases potent synergy achieved by integra
 
 # Django Backend Admin Panel:
 
-By running python manage.py runserver and navigating to /admin
+## By running python manage.py runserver and navigating to /admin
 
 <p align="center">
   <img src="https://github.com/Minty-cyber/React-Django-CRUD-Frontend-/blob/6287a7151c1389b4cbdb0d57f67cd72043ad6635/src/Images/Screenshot%20(174).png" width="600">
